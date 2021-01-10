@@ -4,9 +4,8 @@ import PropTypes from 'prop-types';
 const App = ({ greeting, subtitle }) => {
   return (
     <Fragment>
-      <h1>
-        {greeting} - {subtitle}
-      </h1>
+      <h1>{greeting}</h1>
+      <p>{subtitle}</p>
     </Fragment>
   );
 };
